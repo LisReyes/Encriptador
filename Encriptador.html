@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Imagenes/encriptado.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Encriptador-Desencriptador-Alura Challenge</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Imagenes/logo.png" alt="Logo-Alura" class="im-logo">
+            <h1 class="tituloP"></h1>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <textarea class="message" spellcheck="false" id="menssage" placeholder="Escribir aquí" autofocus></textarea>
+        </section>
+        <div class="container-rigth">
+            <div><img src="Imagenes/Muñeco.png" alt="" class="container-mune" id = "img-mu"></div>
+            <section class="container-messsage">
+                <p id="output" class="errorM">Ningún mensaje fue encontrado</p>
+                <textarea class="output" id="resultado"  placeholder="Ingresa el texto que desees encriptar o desencriptar"></textarea>
+                <button id="btn-copy" onclick="copiar()" class="copiar-btn"><p>Copiar</p></button>
+            </section> 
+        </div>    
+        <section>
+            <div class="container-advertencia">
+                <img src="Imagenes/bi_exclamation-circle-fill.png" alt="Advertencia" class="exclamation">
+                <p class="adver-text">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="btns">
+               <button class="btn-encr" onclick="encriptar()" id="encriptar"><p class="text-encr">Encriptar</p></button>
+               <button class="btn-izq" onclick="desencriptar()" id="desencriptar"><p class="text-des">Desencriptar</p></button>
+            </div>
+            
+        </section>
+        
+        
+    </main>
+    
+    <script src="Script/funcion.js"></script>
+</body>
+</html>
