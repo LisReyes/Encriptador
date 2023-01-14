@@ -234,3 +234,204 @@ body{
     position: absolute;
     top: 10px;
 }
+
+/*============================== CODIGO RESPONSIVE ================================*/
+@media screen and (max-width: 900px){
+    .logo{
+        width: auto;
+    }
+    .container-rigth{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 32px;
+        gap: 32px;
+
+        position: absolute;
+        width: 630px;
+        height: 140px;
+        left: 40px;
+        top: 1002px;
+
+        background: #fff;
+        box-shadow: 0px 24px 32px -8px rgba(0,0,0,0.08);
+        border-radius: 32px;
+    }
+    .container-mune{
+        visibility: hidden; 
+    }
+    .container-messsage{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+
+        width: 624px;
+        height: 69px;
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        position: absolute;
+        top: 12px;
+        width: 688px;
+        height: 133px;
+        left: 60px;
+    }
+    .errorM{
+        width: 624px;
+        height: 29px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 120%;
+
+        tex-align: center;
+
+        color: #34A40;
+        flex:none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .output{
+        width: 524px;
+        height: 29px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size:16px;
+        line-height: 150%;
+
+        padding-left: 45px;
+        text-align: center;
+        color: #495057;
+        flex:none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .copiar-btn{
+        visibility: hidden;
+    }
+    .btns{
+        display: flex;
+        flex-direction: row;
+        align--items: flex-start;
+        padding: 0px;
+        gap: 24px;
+
+        position: absolute;
+        width: 688px;
+        height: 67px;
+        left: 40px;
+        top: 870px;
+    }
+    .btn-encr{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+
+        width: 332px;
+        height: 67px;
+
+        background: #0A3871;
+        border-radius: 24px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+    .btn-izq{
+        border-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        gap: 8px;
+
+        width: 332px;
+        height: 67px;
+
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+    }
+    .container-advertencia{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+
+        position: absolute;
+        width: 229px;
+        header: 18px;
+        left: 50px;
+        top: 836px;
+    }
+    .exclamation{
+        width: 16px;
+        height: 16px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .adver-text{
+        width: 205px;
+        height: 18px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+
+        color: #495057;
+        flex:none;
+        order: 1;
+        flex-grow:0;
+    }
+    .message{
+        position: absolute;
+        width: 688px;
+        height: 48px;
+        left: 40px;
+        top: 240px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+
+        color: #0A3871;
+    }
+    .im-logo{
+        position:absolute;
+        left: 5.21%;
+        right: 90.74%;
+        top: 6.25%;
+        bottom: 89.8%;
+    }
+    .logo{
+        position:absolute;
+        width: 31.09px;
+        height: 50.58px;
+        left: 40px;
+        top: 73.42px;
+
+    }
+
+}
