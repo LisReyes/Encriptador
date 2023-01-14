@@ -349,6 +349,11 @@ body{
         order: 0;
         flex-grow: 1;
     }
+    .btn-encr:hover{
+        transform: scale(1.5);
+        background: #F3F5FC;
+        transition: 1s;
+    }
     .btn-izq{
         border-sizing: border-box;
         display: flex;
